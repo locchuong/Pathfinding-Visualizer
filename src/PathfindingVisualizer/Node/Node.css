@@ -4,8 +4,8 @@
   background-color: white;
   padding: 1px;
   border: 1px solid lightskyblue;
-  width: calc(99vw / 59);
-  height: calc(80vh / 29);
+  width: calc(98vw / 59);
+  height: calc(79vh / 29);
 }
 .node-finish {
   border: 1px solid lightcoral;
