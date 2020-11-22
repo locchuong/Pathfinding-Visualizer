@@ -10,6 +10,8 @@ A simple pathfinding visualizer built on react. I made this app while learning t
 
 **A STAR Search Algorithm**: This algorithm is a graph traversal and path finding algorithm that guarantees the shortest path using heuristics to guide it. It does so by keeping track of a fcost, hcost and gcost where hcost is the projected distance from any given node to the end node and gcost is the distance to the start node. Fcost is simply hcost + gcost. The heuristic used in this implementation is Euclidean distance, but Manhattan distance is also implemented (commented out). The data structure used to implement this algorithm was a priority queue which orders the nodes by fcost.
 
+**Recursive Subdivision**: This algorithm picks a random pivot point, creates a wall at the pivot with a random passages along it, and then recursively calls the algorithm on the subdivided regions. Because entire cells (Instead of the outline of the cells) were used as walls, walls are restricted to having even-numbered indices and passages are restricted to odd-numbered indices.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
