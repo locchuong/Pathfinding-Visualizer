@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 65, 92);
+    padding: 10px 0px;
+    width: 100vw;
+}
+#githublogo {
+    filter:invert(1);
+    margin-left: 15px;
+}
+#handshakelogo {
+    filter: grayscale(1);
+    margin-left: 15px;
+}
+.footer > h2 {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
